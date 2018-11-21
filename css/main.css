@@ -3,7 +3,7 @@ html, body{
 	color:white;
 	font-family:'Indie Flower', sans serif;
 	margin: 0 auto;
-	padding: 0;
+	
 }
 /*GRID*/
 .full-width, .half-width, .third-width{
@@ -17,7 +17,7 @@ float:left;
 
 .full-width{
 	width:100%;
-	padding-bottom: 60px;
+	padding: 0 50px 60px 50px;
 }
 
 .half-width{
@@ -39,7 +39,9 @@ header{
 	background-size: cover;
 }
 
-
+header .half-width{
+	padding-bottom: 100px;
+}
 
 li{
 	list-style: none;
@@ -49,14 +51,21 @@ nav ul li{
 	float: left;
 	font-size: 30px;
 	line-height: 10px;
-	padding-right:50px;
+	padding: 0 80px 0 80px;
+	text-align: center;
 }
 h2{
 	margin: 0 auto;
 	font-size: 30px;
+	padding-left: 25px;
 }
 h1{
 	margin: 10px 10px 10px 10px;
-	padding: 20px 0;
+	padding: 100px 0;
 	font-size: 72px;
+	line-height: 100px;
+}
+
+header span{
+	color:;
 }
