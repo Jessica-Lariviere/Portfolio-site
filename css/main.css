@@ -5,6 +5,10 @@ html, body{
 	margin: 0 auto;
 	
 }
+a{
+	color:white;
+	text-decoration: none;
+}
 /*GRID*/
 .full-width, .half-width, .third-width{
 margin: 0 auto;
