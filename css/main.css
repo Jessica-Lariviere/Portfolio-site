@@ -7,11 +7,17 @@ html, body{
 }
 /*GRID*/
 .full-width, .half-width, .third-width{
-margin: 0, auto;
+margin: 0 auto;
+float:left;
 }
 
 .half-width, .third-width{
 	float:left;
+}
+
+.full-width{
+	width:100%;
+	padding-bottom: 60px;
 }
 
 .half-width{
@@ -23,10 +29,34 @@ margin: 0, auto;
 }
 
 /*HEADER*/
+
+header{
+	height: 800px;
+	padding-bottom: 80px;
+	background-image: url(../img/hero-background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
 li{
 	list-style: none;
 }
 
 nav ul li{
 	float: left;
+	font-size: 30px;
+	line-height: 10px;
+	padding-right:50px;
+}
+h2{
+	margin: 0 auto;
+	font-size: 30px;
+}
+h1{
+	margin: 10px 10px 10px 10px;
+	padding: 20px 0;
+	font-size: 72px;
 }
