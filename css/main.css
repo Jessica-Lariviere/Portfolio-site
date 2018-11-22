@@ -27,6 +27,7 @@ float:left;
 .full-width{
 	width:100%;
 	padding: 0 0 60px 0;
+	width: 1200px;
 }
 
 .half-width{
@@ -62,7 +63,7 @@ nav ul li{
 	float: left;
 	font-size: 30px;
 	line-height: 10px;
-	padding: 0 80px 0 80px;
+	padding: 0 70px 0 70px;
 	text-align: center;
 }
 h2{
@@ -222,10 +223,12 @@ p{
 #about{
 	background-image: url(../img/about-me.png);
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
-	height: 700px;
+	height: 800px;
 	color:#000000;
 	padding-left: 80px;
+	clear: both;
 }
 
 #about h3{
