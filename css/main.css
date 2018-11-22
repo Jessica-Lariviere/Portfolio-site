@@ -226,10 +226,19 @@ p{
 #follow li{
 	float:left;
 	display: inline;
+	padding: 0 5px;
 
+}
+
+#follow h4{
+	padding left: 10px;
 }
 
 #follow{
 	text-align: center;
 }
 
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 75px;
+}
