@@ -9,6 +9,11 @@ a{
 	color:white;
 	text-decoration: none;
 }
+
+
+
+
+
 /*GRID*/
 .full-width, .half-width, .third-width{
 margin: 0 auto;
@@ -31,6 +36,7 @@ float:left;
 
 .third-width{
 	width:33%;
+	text-align: center;
 }
 
 /*HEADER*/
@@ -128,6 +134,11 @@ h1{
 
 
 
+
+
+
+
+
 /*MAIN*/
 img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
@@ -195,39 +206,12 @@ p{
 
 
 
-/*rainbow border*/
-
-.gradient-border {
-  --borderWidth: 3px;
-  position: relative;
-  border-radius: var(--borderWidth);
-}
-.gradient-border:after {
-  content: '';
-  position: absolute;
-  top: calc(-1 * var(--borderWidth));
-  left: calc(-1 * var(--borderWidth));
-  height: calc(90% + var(--borderWidth) * 2);
-  width: calc(80% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-  border-radius: calc(2 * var(--borderWidth));
-  z-index: -1;
-  animation: animatedgradient 3s ease alternate infinite;
-  background-size: 400% 100%;
-}
 
 
-@keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
+
+
+
 
 
 
@@ -239,14 +223,42 @@ p{
 	background-image: url(../img/about-me.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 550px;
+	height: 700px;
 	color:#000000;
-}
-#skills{
-	padding-top: 40px;
+	padding-left: 80px;
 }
 
+#about h3{
+	text-align:left;
+	padding-left: 600px
+}
+
+#about li{
+	font-size: 24px;
+	padding-bottom:15px;
+}
+
+#skills{
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+
+
+
+
+
+
 /*FOOTER*/
+
+
+footer li{
+	text-align: left;
+	padding-left: 175px;
+	font-size: 24px;
+}
+
+
 #follow li{
 	float:left;
 	display: inline;
@@ -270,11 +282,49 @@ p{
 
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 0 100px;
+	margin: 0 80px;
 	height: 100px;
 }
 
+
+/*rainbow border*/
+
+.gradient-border {
+  --borderWidth: 3px;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(80% + var(--borderWidth) * 2);
+  width: calc(68% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 400% 100%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 #copyright p{
 	text-align: center;
-	padding-right: 70px;
+	padding: 0 60px;
 }
+
