@@ -231,7 +231,8 @@ h4, p{
 
 #about h3{
 	text-align:left;
-	padding-left: 600px
+	padding-left: 600px;
+	padding-top: 50px;
 }
 
 #about li{
@@ -326,6 +327,6 @@ footer li{
 
 #copyright p{
 	text-align: left;
-	padding-left: 580px;
+	padding-left: 380px;
 }
 
