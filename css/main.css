@@ -226,7 +226,7 @@ p{
 #follow li{
 	float:left;
 	display: inline;
-	padding: 0 5px;
+	padding: 0 18px;
 
 }
 
@@ -240,5 +240,5 @@ p{
 
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 0 75px;
+	margin: 0 100px;
 }
