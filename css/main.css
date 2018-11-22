@@ -141,6 +141,11 @@ h1{
 
 
 /*MAIN*/
+
+.full-width .half-width{
+	padding: 100px 0;
+}
+
 img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
@@ -160,13 +165,9 @@ article img{
 	width: 550px;
 }
 
-#rogue-img, #holstee-img{
-	padding-left: 80px;
-}
 
 #jubilee-img{
 	float:right;
-	padding-right: 80px;
 }
 
 h3{
@@ -197,7 +198,7 @@ h4, p{
 
 #jubilee-text{
 	text-align: right;
-	padding-right: 50px;
+	padding-right: 60px;
 	width: 45%;
 	clear: left;
 }
