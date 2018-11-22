@@ -149,30 +149,31 @@ article img{
 }
 
 #rogue-img, #holstee-img{
-	padding:0 0 0 100px;
+	padding:0 0 0 80px;
 }
 
 #jubilee-img{
-	padding-left: 80px;
+	float:right;
+	padding-right: 80px;
 }
 
 
 h3{
-	font-size: 36px;
+	font-size: 46px;
 	text-align:center;
 	color:#ed1775;
 }
 h4{
-	font-size: 24px;
+	font-size: 36px;
 	margin: 0 auto;
 }
 
 p{
-	font-size: 24px;
+	font-size: 36px;
 	margin:0 auto;
 }
 #portfolio h4{
-	font-size: 24px;
+	font-size: 36px;
 	text-align:center;
 }
 
@@ -191,6 +192,8 @@ p{
 	padding-right: 50px;
 	width: 45%;
 }
+
+
 
 /*rainbow border*/
 
