@@ -145,8 +145,17 @@ img {
 h3{
 	font-size: 36px;
 	text-align:center;
+	color:#ed1775;
+}
+h4{
+	font-size: 24px;
+	margin: 0 auto;
 }
 
+p{
+	font-size: 24px;
+	margin:0 auto;
+}
 #portfolio h4{
 	font-size: 24px;
 	text-align:center;
@@ -160,4 +169,12 @@ h3{
 	text-align: right;
 	padding-right: 50px;
 	width: 45%;
+}
+/*ABOUT*/
+
+#about{
+	background-image: url(../img/about-me.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
 }
